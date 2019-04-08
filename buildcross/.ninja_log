@@ -1,0 +1,12 @@
+# ninja log v5
+1	244	0	build.ninja	8caf40de55080dd9
+1	323	0	src/sca3300@sta/._sca3300-tools.cpp.o	d258d360748fd9ed
+1	339	0	src/sca3300_sha@sha/._sca3300-tools.cpp.o	837b668f9694ade2
+1	425	0	example/sca3300-exe@exe/example.cpp.o	e6263b6d1c68854
+0	535	0	src/sca3300_sha@sha/._sca3300.cpp.o	4802f40ab87c127c
+1	616	0	src/sca3300@sta/._sca3300.cpp.o	3e06c44c70cad510
+1	9	0	src/libsca3300.a	346a93eebe03b721
+0	86	0	src/libsca3300_sha.so	a3f81d020fc4132f
+10	101	0	example/sca3300-exe	a9842069171f04ee
+1	9334	0	tests/sca3300-test@exe/sca3300.test.cpp.o	db0a0207a985d804
+9334	10116	0	tests/sca3300-test	550ee782cd4bdcc9

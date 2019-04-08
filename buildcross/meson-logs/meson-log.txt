@@ -1,0 +1,19 @@
+Build started at 2019-04-08T10:19:38.203091
+Python binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.29.0
+Source dir: /home/nicolas/GrayJayDisk/workspace/murata/sca3300
+Build dir: /home/nicolas/GrayJayDisk/workspace/murata/sca3300/buildcross
+Build type: cross build
+Host machine cpu family: arm
+Host machine cpu: armv7hl
+Target machine cpu family: arm
+Target machine cpu: armv7hl
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Project name: Hello_sca3300
+Native cpp compiler: c++ (gcc 5.4.0-6ubuntu1)
+Cross cpp compiler: /usr/bin/arm-linux-gnueabihf-g++ (gcc 5.4.0-6ubuntu1)
+Adding test "SCA3300 test".
+Build targets in project: 4
