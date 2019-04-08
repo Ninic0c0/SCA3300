@@ -1,7 +1,7 @@
 # SCA3300-D01 3-axis Industrial Accelerometer and Inclinometer with Digital SPI Interface Library [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 > This repository contains a minimal driver to use Murata SCA3300-D01 3-axis device.
 
-![Murata SCA3300-D01](https://brightcove04pmdo-a.akamaihd.net/4741948346001/4741948346001_5393517021001_5199040810001-vs.jpg  =100x20)
+![Murata SCA3300-D01](https://brightcove04pmdo-a.akamaihd.net/4741948346001/4741948346001_5393517021001_5199040810001-vs.jpg)
 
 ## Information
 
@@ -45,7 +45,7 @@ Checking connectivity... done.
 [nicolas:lib]% meson buildcross --cross-file cross_file.txt
 ```
 
-*Note: As with Make you have access to the clean command:
+*Note: As with Make you have access to the clean command:*
 ```sh
 [nicolas:lib]% ninja -C buildcross clean
 ninja: Entering directory `buildcross'
@@ -93,10 +93,9 @@ finished...
 [nicolas:sca3300]% firefox doc/html/index.html 
 ```
 
-# Example
-**For this example we will build the static lib and hello world for Rapberry pi 3.
+# Example (build the static lib and hello world for Rapberry pi 3)
 
-*Build:  
+*Build:*
 ```sh
 [nicolas:lib]% ninja -C buildcross
 ninja: Entering directory `buildcross'
@@ -104,17 +103,16 @@ ninja: Entering directory `buildcross'
 ```
 
 
-*Send binary to the raspberry pi:  
+*Send binary to the raspberry pi:* 
 ```sh
 [nicolas:lib]% scp -o IdentitiesOnly=yes buildcross/src/example/sca3300-exe pi@1.2.3.4:/home/pi
 pi@1.2.3.4's password: 
 sca3300-exe                                                100%  285KB 285.0KB/s   00:00    
 ```
-*Establish SSH connection:  
+*Establish SSH connection:* 
 
 ```sh
 [nicolas:lib]% ssh -o IdentitiesOnly=yes pi@1.2.3.4
-pi@1.2.3.4's password: 
 Linux raspberrypi 4.14.79-v7+ #1159 SMP Sun Nov 4 17:50:20 GMT 2018 armv7l
 
 The programs included with the Debian GNU/Linux system are free software;
