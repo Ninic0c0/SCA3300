@@ -10,13 +10,13 @@ First of all this library is really light. The code is probbaly not perfect but 
 This project is based on Meson/Ninja build system  
 More information Menson/Ninja : http://mesonbuild.com/  
 
-You will find 2 sub folders.  
-Once contains the library and the other one an Hello World.
+You will find 3 sub folders.  
+Once contains the library, once an Hello World and the last one some unit tests.
 
 As the project is base on Meson you can find configuration files as:  
 [Master Meson file](./meson.build)  
-[BInary Meson file](lib/src/example/meson.build)  
-[Librairie Meson file ](lib/src/libsca3300/meson.build)  
+[Binary Meson file](./src/example/meson.build)  
+[Librairie Meson file ](./src/libsca3300/meson.build)  
 
 ## Download sources
 ```sh
